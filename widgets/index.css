@@ -1,17 +1,23 @@
 body {
     display: flex;
-    margin: 100 auto;
-    justify-content: center;
+    /* flex-direction: column; */
+
+    /* margin: 100 auto; */
+    justify-content: space-around;
+
+    background-image: linear-gradient( to right,rgb(255, 217, 0), #03b1fc);
 }
 
 
 .clock{
+    margin: 50px 0px 50px 0px;
     font-family: 'Anton', sans-serif;
     display: flex;
     flex-direction: column;
     width: 500px;
     padding: 20px;
-    background-color: crimson; 
+    background-color: rgba(220, 20, 60); 
+    border-radius: 20px;
 }
 
 .date {
@@ -23,3 +29,36 @@ body {
     display: flex;
     justify-content: space-between
 }
+
+.tabs {
+    margin: 50px 0px 50px 0px;
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(220, 20, 60); 
+    border-radius: 20px;
+}
+
+.tabs ul{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.tabs article {
+    margin: 0 auto;
+    background-color: rgb(220, 20, 60); 
+}
+
+
+.weather {
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    background-color: rgba(220, 20, 60); 
+    border-radius: 20px;
+}
+
