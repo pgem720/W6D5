@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    margin: 100 auto;
+    justify-content: center;
+}
+
+
+.clock{
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    background-color: crimson; 
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time {
+    display: flex;
+    justify-content: space-between
+}

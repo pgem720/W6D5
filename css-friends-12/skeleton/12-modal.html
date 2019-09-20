@@ -17,11 +17,12 @@
   <link rel="stylesheet" href="css/10-posts.css" type="text/css">
   <link rel="stylesheet" href="css/11-icons.css" type="text/css">
   <link rel="stylesheet" href="css/12-modal.css" type="text/css">
+  <script src="./src/open.js"></script>
 </head>
 <body>
 
   <header class="header">
-    <nav class="header-nav">
+    <nav class="header-nav js-modal-open js-modal-close">
 
       <h1 class="header-logo">
         <a href="#">App Academy Friends</a>
@@ -231,6 +232,12 @@
     </ul>
 
   </footer>
+  <div class="modal is-closed">
+    <section class="modal-screen"></section>
+    <section class="modal-form input submit">
+      <button>&times;</button>
+    </section>
+  </div>
 
 </body>
 </html>
